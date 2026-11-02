@@ -29,4 +29,8 @@ public class PlayerCharacter {
 
     private double positionX = 0.0;
     private double positionY = 0.0;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User owner;
 }
