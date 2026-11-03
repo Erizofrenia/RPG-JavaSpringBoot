@@ -11,7 +11,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 
-@Component 
+//@Component 
 public class TestBD implements CommandLineRunner {
     //@PersistenceContext
     //private EntityManager entityManager;
